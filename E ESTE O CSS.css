@@ -1,0 +1,166 @@
+* {
+  list-style:none; 
+    margin: 0;
+    padding: 0;
+  }
+
+ /**/ div{border: solid 1px black} /**/
+
+  .body {
+    margin: 0;
+    padding: 0;
+  }
+
+  html{
+
+    text-align:left;
+  
+    background: white;
+  
+    margin:0;
+  
+    padding:0;
+
+    height: 100%;
+  
+  }
+  
+
+  #container1 {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    background-image: url("imagens/barratopo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    min-height: 220px;
+    max-height: 25vh; /*25%da tela será ocupada pela barra do footer*/
+     
+    /*display: flex;
+		flex-Direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;*/
+}
+
+.logokinder {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+}
+
+  #container2 {
+    display: flex;
+    gap: 3vw; /* MUDAR GAP dwad */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0%;
+  }
+
+ /* #container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    bottom: 3%;
+    left: 20%;
+    right: 20%;
+    top: 213%;
+    align-items: center;
+    position: absolute;
+  } */
+
+
+  /* .barra {
+
+  position: relative; /*pq relative?*/
+ /* left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+/* oq é que os 3 de cima fazem?*/
+  
+
+/* .kinderlogo{ 
+
+  top:5%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  display: inline-block; /*oq faz isso?*/
+ /* position: absolute;
+  margin: 0 auto;
+  } */
+
+.footer {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  background-image: url("imagens/Vector\ 2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 220px;
+  max-height: 25vh; /*25% da tela será ocupada pela barra do footer*/
+  
+}
+
+  /*
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: 50%;
+  top: 202%;
+  width: 100%;
+  bottom: 0;
+  margin: 0;
+  padding: 0;*/
+
+
+.ces, .cepaim, .statusm, .europe { /*todos os patrocinadores terã aquelas medidas*/
+  width: 15%;
+  height: 100%;
+}
+
+.svgImg{ /*imagens com classe svgImg mantêm essas proporções*/
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.patrocinadores{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 9;
+}
+
+.europe {
+  display: flex;
+  align-items: center;
+  
+}
+
+.ces{
+  display: flex;
+  align-items: center;
+}
+
+.cepaim{
+  display: flex;
+  align-items: center;
+}
+
+.statusm{
+  display: flex;
+  align-items: center;
+}
+
+.privacy{
+  flex: 2;
+}
